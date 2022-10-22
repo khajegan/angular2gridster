@@ -2,19 +2,19 @@
 
 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)
 
-Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://swiety85.github.io/angular2gridster/).
+Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://khajegan.github.io/angular2gridster/).
 
-1. [Getting started](https://github.com/swiety85/angular2gridster/wiki/Getting-started)
-2. [What is Angular2gridster and why to use it?](https://github.com/swiety85/angular2gridster/wiki)
-3. [API Documentation](https://github.com/swiety85/angular2gridster/wiki/API-Documentation)
-4. [Roadmap](https://github.com/swiety85/angular2gridster/wiki/Roadmap)
+1. [Getting started](https://github.com/khajegan/angular2gridster/wiki/Getting-started)
+2. [What is Angular2gridster and why to use it?](https://github.com/khajegan/angular2gridster/wiki)
+3. [API Documentation](https://github.com/khajegan/angular2gridster/wiki/API-Documentation)
+4. [Roadmap](https://github.com/khajegan/angular2gridster/wiki/Roadmap)
 
-More comprehensive documentation is available in [Wiki](https://github.com/swiety85/angular2gridster/wiki).
+More comprehensive documentation is available in [Wiki](https://github.com/khajegan/angular2gridster/wiki).
 
-Development progress can be tracked in [Milestones](https://github.com/swiety85/angular2gridster/milestones) and in [Project board](https://github.com/swiety85/angular2gridster/projects/1).
+Development progress can be tracked in [Milestones](https://github.com/khajegan/angular2gridster/milestones) and in [Project board](https://github.com/khajegan/angular2gridster/projects/1).
 
 ## Versions:
-
+-   Version **14.x** works with **Angular 14.x**.
 -   Version **13.x** works with **Angular 13.x**.
 -   Version **12.x** works with **Angular 12.x**.
 -   Version **11.x** works with **Angular 11.x**.

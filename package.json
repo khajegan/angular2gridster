@@ -1,6 +1,6 @@
 {
-  "name": "angular2gridster",
-  "version": "13.0.0",
+  "name": "@khajegan/angular2gridster",
+  "version": "14.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -19,26 +19,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/swiety85/angular2gridster.git"
+    "url": "git+ssh://git@github.com/khajegan/angular2gridster.git"
   },
-  "author": {
-    "name": "Damian Wajdlich",
-    "email": "swiety85@gmail.com"
-  },
+  "author": "Damian Wajdlich <khajegan@gmail.com>",
   "keywords": [
     "gridster",
     "grid",
     "gridLayout",
     "angular",
+    "angular14",
     "dashboard",
     "ngx",
     "drag&drop",
     "widgets"
   ],
   "bugs": {
-    "url": "https://github.com/swiety85/angular2gridster/issues"
+    "url": "https://github.com/khajegan/angular2gridster/issues"
   },
-  "homepage": "https://github.com/swiety85/angular2gridster#readme",
+  "homepage": "https://github.com/khajegan/angular2gridster#readme",
   "dependencies": {
     "@angular/common": "^14.2.6",
     "@angular/core": "^14.2.6",
@@ -75,5 +73,7 @@
     "tslint": "~6.1.0",
     "typescript": "~4.8.4"
   },
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "description": "[![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
+  "main": "updatePackageJson.js"
 }
