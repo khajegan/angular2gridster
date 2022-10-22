@@ -58,9 +58,9 @@
     "mixin-deep": ">=1.3.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.1.2",
-    "@angular-devkit/core": "^13.1.2",
-    "@angular/cli": "~13.1.2",
+    "@angular-devkit/build-angular": "^14.2.6",
+    "@angular-devkit/core": "^14.2.6",
+    "@angular/cli": "^14.2.6",
     "@angular/compiler-cli": "^14.2.6",
     "@angular/language-service": "^14.2.6",
     "@types/jasmine": "~3.6.0",
@@ -69,7 +69,7 @@
     "codelyzer": "^6.0.0",
     "edit-json-file": "^1.1.0",
     "gh-pages": "^2.0.1",
-    "ng-packagr": "^13.1.2",
+    "ng-packagr": "^14.2.1",
     "standard-version": "^6.0.1",
     "ts-node": "~7.0.1",
     "tslint": "~6.1.0",
