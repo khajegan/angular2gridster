@@ -196,9 +196,9 @@ export class GridsterItemPrototypeDirective {
         return el;
     }
 }
-GridsterItemPrototypeDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.7", ngImport: i0, type: GridsterItemPrototypeDirective, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: i1.GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Directive });
-GridsterItemPrototypeDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "14.2.7", type: GridsterItemPrototypeDirective, selector: "[ngxGridsterItemPrototype]", inputs: { data: "data", config: "config", w: "w", wSm: "wSm", wMd: "wMd", wLg: "wLg", wXl: "wXl", h: "h", hSm: "hSm", hMd: "hMd", hLg: "hLg", hXl: "hXl" }, outputs: { drop: "drop", start: "start", cancel: "cancel", enter: "enter", out: "out" }, ngImport: i0 });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.7", ngImport: i0, type: GridsterItemPrototypeDirective, decorators: [{
+GridsterItemPrototypeDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: GridsterItemPrototypeDirective, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: i1.GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Directive });
+GridsterItemPrototypeDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "14.2.0", type: GridsterItemPrototypeDirective, selector: "[ngxGridsterItemPrototype]", inputs: { data: "data", config: "config", w: "w", wSm: "wSm", wMd: "wMd", wLg: "wLg", wXl: "wXl", h: "h", hSm: "hSm", hMd: "hMd", hLg: "hLg", hXl: "hXl" }, outputs: { drop: "drop", start: "start", cancel: "cancel", enter: "enter", out: "out" }, ngImport: i0 });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: GridsterItemPrototypeDirective, decorators: [{
             type: Directive,
             args: [{
                     selector: '[ngxGridsterItemPrototype]'

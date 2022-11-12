@@ -1,54 +1,54 @@
 {
-    "name": "@khajegan/angular2gridster",
-    "description": "angular2gridster compatible with Angular 14.2.0 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
-    "version": "14.0.3",
-    "peerDependencies": {
-        "@angular/common": "14.2.0",
-        "@angular/core": "14.2.0"
+  "name": "@khajegan/angular2gridster",
+  "description": "angular2gridster compatible with Angular 14.2.0 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
+  "version": "14.0.4",
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khajegan/angular2gridster.git"
+  },
+  "keywords": [
+    "Angular 14",
+    "Angular",
+    "angular2gridster"
+  ],
+  "author": "Amir Hossein Khajegan",
+  "license": "ISC",
+  "module": "fesm2015/angular2gridster.mjs",
+  "es2020": "fesm2020/angular2gridster.mjs",
+  "esm2020": "esm2020/angular2gridster.mjs",
+  "fesm2020": "fesm2020/angular2gridster.mjs",
+  "fesm2015": "fesm2015/angular2gridster.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
     },
-    "dependencies": {
-        "tslib": "^2.3.0"
-    },
-    "module": "fesm2015/angular2gridster.mjs",
-    "es2020": "fesm2020/angular2gridster.mjs",
-    "esm2020": "esm2020/angular2gridster.mjs",
-    "fesm2020": "fesm2020/angular2gridster.mjs",
-    "fesm2015": "fesm2015/angular2gridster.mjs",
-    "typings": "index.d.ts",
-    "exports": {
-        "./package.json": {
-            "default": "./package.json"
-        },
-        ".": {
-            "types": "./index.d.ts",
-            "esm2020": "./esm2020/angular2gridster.mjs",
-            "es2020": "./fesm2020/angular2gridster.mjs",
-            "es2015": "./fesm2015/angular2gridster.mjs",
-            "node": "./fesm2015/angular2gridster.mjs",
-            "default": "./fesm2020/angular2gridster.mjs"
-        }
-    },
-    "sideEffects": false,
-    "main": "index.js",
-    "directories": {
-        "lib": "lib"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/khajegan/angular2gridster.git"
-    },
-    "keywords": [
-        "Angular 14",
-        "Angular",
-        "angular2gridster"
-    ],
-    "author": "Amir Hossein Khajegan",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/khajegan/angular2gridster/issues"
-    },
-    "homepage": "https://github.com/khajegan/angular2gridster#readme"
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/angular2gridster.mjs",
+      "es2020": "./fesm2020/angular2gridster.mjs",
+      "es2015": "./fesm2015/angular2gridster.mjs",
+      "node": "./fesm2015/angular2gridster.mjs",
+      "default": "./fesm2020/angular2gridster.mjs"
+    }
+  },
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/khajegan/angular2gridster/issues"
+  },
+  "homepage": "https://github.com/khajegan/angular2gridster#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

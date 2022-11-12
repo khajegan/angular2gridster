@@ -265,14 +265,14 @@ export class GridsterComponent {
         this.gridster.items.forEach((item) => item.itemComponent.disableResizable());
     }
 }
-GridsterComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.7", ngImport: i0, type: GridsterComponent, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: i1.GridsterService }, { token: i2.GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Component });
-GridsterComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.2.7", type: GridsterComponent, selector: "ngx-gridster", inputs: { options: "options", draggableOptions: "draggableOptions", parent: "parent" }, outputs: { optionsChange: "optionsChange", ready: "ready", reflow: "reflow", prototypeDrop: "prototypeDrop", prototypeEnter: "prototypeEnter", prototypeOut: "prototypeOut" }, host: { properties: { "class.gridster--dragging": "this.isDragging", "class.gridster--resizing": "this.isResizing", "class.gridster--ready": "this.isReady" } }, providers: [GridsterService], viewQueries: [{ propertyName: "$positionHighlight", first: true, predicate: ["positionHighlight"], descendants: true, static: true }], ngImport: i0, template: `<div class="gridster-container">
+GridsterComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: GridsterComponent, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: i1.GridsterService }, { token: i2.GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Component });
+GridsterComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.2.0", type: GridsterComponent, selector: "ngx-gridster", inputs: { options: "options", draggableOptions: "draggableOptions", parent: "parent" }, outputs: { optionsChange: "optionsChange", ready: "ready", reflow: "reflow", prototypeDrop: "prototypeDrop", prototypeEnter: "prototypeEnter", prototypeOut: "prototypeOut" }, host: { properties: { "class.gridster--dragging": "this.isDragging", "class.gridster--resizing": "this.isResizing", "class.gridster--ready": "this.isReady" } }, providers: [GridsterService], viewQueries: [{ propertyName: "$positionHighlight", first: true, predicate: ["positionHighlight"], descendants: true, static: true }], ngImport: i0, template: `<div class="gridster-container">
       <ng-content></ng-content>
       <div class="position-highlight" style="display:none;" #positionHighlight>
         <div class="inner"></div>
       </div>
     </div>`, isInline: true, styles: ["ngx-gridster{position:relative;display:block;left:0;width:100%}ngx-gridster.gridster--dragging{-moz-user-select:none;-webkit-user-select:none;user-select:none}ngx-gridster .gridster-container{position:relative;width:100%;list-style:none;transition:width .2s,height .2s}ngx-gridster .position-highlight{display:block;position:absolute;z-index:1}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush, encapsulation: i0.ViewEncapsulation.None });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.7", ngImport: i0, type: GridsterComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.0", ngImport: i0, type: GridsterComponent, decorators: [{
             type: Component,
             args: [{ selector: 'ngx-gridster', template: `<div class="gridster-container">
       <ng-content></ng-content>
