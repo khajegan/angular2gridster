@@ -1,10 +1,21 @@
 {
     "name": "angular2gridster",
     "peerDependencies": {
-        "@angular/common": "13.1.1",
-        "@angular/core": "13.1.1"
+        "@angular/common": "14.2.0",
+        "@angular/core": "14.2.0"
     },
     "dependencies": {
-        "tslib": "^2.3.1"
-    }
+        "tslib": "^2.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/khajegan/angular2gridster.git"
+    },
+    "keywords": [
+        "Angular 14",
+        "Angular",
+        "angular2gridster"
+    ],
+    "author": "Amir Hossein Khajegan",
+    "license": "ISC"
 }

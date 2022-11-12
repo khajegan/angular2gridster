@@ -1,4 +1,4 @@
-#1 angular2gridster (Angular 14.2.0)
+angular2gridster (Angular 14.2.0)
 
 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)
 
