@@ -1,5 +1,7 @@
 {
     "name": "angular2gridster",
+    "description": "angular2gridster compatible with Angular 14.2.0 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
+    "version": "14.0.3",
     "peerDependencies": {
         "@angular/common": "14.2.0",
         "@angular/core": "14.2.0"
