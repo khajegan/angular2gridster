@@ -76,5 +76,5 @@ export declare class GridsterItemPrototypeDirective implements OnInit, OnDestroy
      */
     private fixStylesForBodyHelper;
     static ɵfac: i0.ɵɵFactoryDeclaration<GridsterItemPrototypeDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<GridsterItemPrototypeDirective, "[ngxGridsterItemPrototype]", never, { "data": "data"; "config": "config"; "w": "w"; "wSm": "wSm"; "wMd": "wMd"; "wLg": "wLg"; "wXl": "wXl"; "h": "h"; "hSm": "hSm"; "hMd": "hMd"; "hLg": "hLg"; "hXl": "hXl"; }, { "drop": "drop"; "start": "start"; "cancel": "cancel"; "enter": "enter"; "out": "out"; }, never, never, false>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<GridsterItemPrototypeDirective, "[ngxGridsterItemPrototype]", never, { "data": "data"; "config": "config"; "w": "w"; "wSm": "wSm"; "wMd": "wMd"; "wLg": "wLg"; "wXl": "wXl"; "h": "h"; "hSm": "hSm"; "hMd": "hMd"; "hLg": "hLg"; "hXl": "hXl"; }, { "drop": "drop"; "start": "start"; "cancel": "cancel"; "enter": "enter"; "out": "out"; }, never, never, false, never>;
 }

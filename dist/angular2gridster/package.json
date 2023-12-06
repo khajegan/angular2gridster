@@ -1,10 +1,10 @@
 {
-  "name": "@khajegan/angular2gridster",
-  "description": "angular2gridster compatible with Angular 14.2.0 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
-  "version": "14.0.4",
+  "name": "angular2gridster",
+  "description": "angular2gridster compatible with Angular 15.2.10 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
+  "version": "15.0.0",
   "peerDependencies": {
-    "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0"
+    "@angular/common": "^15.2.10",
+    "@angular/core": "^15.2.10"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/khajegan/angular2gridster.git"
   },
   "keywords": [
-    "Angular 14",
+    "Angular 15",
     "Angular",
     "angular2gridster"
   ],
@@ -39,16 +39,5 @@
       "default": "./fesm2020/angular2gridster.mjs"
     }
   },
-  "sideEffects": false,
-  "bugs": {
-    "url": "https://github.com/khajegan/angular2gridster/issues"
-  },
-  "homepage": "https://github.com/khajegan/angular2gridster#readme",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "sideEffects": false
 }

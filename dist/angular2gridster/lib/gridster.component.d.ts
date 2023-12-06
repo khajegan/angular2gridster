@@ -62,5 +62,5 @@ export declare class GridsterComponent implements OnInit, AfterContentInit, OnDe
     private enableResizable;
     private disableResizable;
     static ɵfac: i0.ɵɵFactoryDeclaration<GridsterComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<GridsterComponent, "ngx-gridster", never, { "options": "options"; "draggableOptions": "draggableOptions"; "parent": "parent"; }, { "optionsChange": "optionsChange"; "ready": "ready"; "reflow": "reflow"; "prototypeDrop": "prototypeDrop"; "prototypeEnter": "prototypeEnter"; "prototypeOut": "prototypeOut"; }, never, ["*"], false>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<GridsterComponent, "ngx-gridster", never, { "options": "options"; "draggableOptions": "draggableOptions"; "parent": "parent"; }, { "optionsChange": "optionsChange"; "ready": "ready"; "reflow": "reflow"; "prototypeDrop": "prototypeDrop"; "prototypeEnter": "prototypeEnter"; "prototypeOut": "prototypeOut"; }, never, ["*"], false, never>;
 }
