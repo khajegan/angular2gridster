@@ -1355,10 +1355,10 @@ class GridsterService {
     removePositionHighlight() {
         this.$positionHighlight.style.display = 'none';
     }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterService, deps: [], target: i0.ɵɵFactoryTarget.Injectable }); }
+    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterService }); }
 }
-GridsterService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterService, deps: [], target: i0.ɵɵFactoryTarget.Injectable });
-GridsterService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterService });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterService, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterService, decorators: [{
             type: Injectable
         }], ctorParameters: function () { return []; } });
 
@@ -1547,10 +1547,10 @@ class GridsterPrototypeService {
                 return utils.isCursorAboveElement(event, gridsterEl);
         }
     }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterPrototypeService, deps: [], target: i0.ɵɵFactoryTarget.Injectable }); }
+    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterPrototypeService }); }
 }
-GridsterPrototypeService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterPrototypeService, deps: [], target: i0.ɵɵFactoryTarget.Injectable });
-GridsterPrototypeService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterPrototypeService });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterPrototypeService, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterPrototypeService, decorators: [{
             type: Injectable
         }], ctorParameters: function () { return []; } });
 
@@ -1811,15 +1811,15 @@ class GridsterComponent {
         this.gridster.options.resizable = false;
         this.gridster.items.forEach((item) => item.itemComponent.disableResizable());
     }
-}
-GridsterComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterComponent, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: GridsterService }, { token: GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Component });
-GridsterComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.10", type: GridsterComponent, selector: "ngx-gridster", inputs: { options: "options", draggableOptions: "draggableOptions", parent: "parent" }, outputs: { optionsChange: "optionsChange", ready: "ready", reflow: "reflow", prototypeDrop: "prototypeDrop", prototypeEnter: "prototypeEnter", prototypeOut: "prototypeOut" }, host: { properties: { "class.gridster--dragging": "this.isDragging", "class.gridster--resizing": "this.isResizing", "class.gridster--ready": "this.isReady" } }, providers: [GridsterService], viewQueries: [{ propertyName: "$positionHighlight", first: true, predicate: ["positionHighlight"], descendants: true, static: true }], ngImport: i0, template: `<div class="gridster-container">
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterComponent, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: GridsterService }, { token: GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.2.12", type: GridsterComponent, selector: "ngx-gridster", inputs: { options: "options", draggableOptions: "draggableOptions", parent: "parent" }, outputs: { optionsChange: "optionsChange", ready: "ready", reflow: "reflow", prototypeDrop: "prototypeDrop", prototypeEnter: "prototypeEnter", prototypeOut: "prototypeOut" }, host: { properties: { "class.gridster--dragging": "this.isDragging", "class.gridster--resizing": "this.isResizing", "class.gridster--ready": "this.isReady" } }, providers: [GridsterService], viewQueries: [{ propertyName: "$positionHighlight", first: true, predicate: ["positionHighlight"], descendants: true, static: true }], ngImport: i0, template: `<div class="gridster-container">
       <ng-content></ng-content>
       <div class="position-highlight" style="display:none;" #positionHighlight>
         <div class="inner"></div>
       </div>
-    </div>`, isInline: true, styles: ["ngx-gridster{position:relative;display:block;left:0;width:100%}ngx-gridster.gridster--dragging{-moz-user-select:none;-webkit-user-select:none;user-select:none}ngx-gridster .gridster-container{position:relative;width:100%;list-style:none;transition:width .2s,height .2s}ngx-gridster .position-highlight{display:block;position:absolute;z-index:1}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush, encapsulation: i0.ViewEncapsulation.None });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterComponent, decorators: [{
+    </div>`, isInline: true, styles: ["ngx-gridster{position:relative;display:block;left:0;width:100%}ngx-gridster.gridster--dragging{-moz-user-select:none;-webkit-user-select:none;user-select:none}ngx-gridster .gridster-container{position:relative;width:100%;list-style:none;transition:width .2s,height .2s}ngx-gridster .position-highlight{display:block;position:absolute;z-index:1}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush, encapsulation: i0.ViewEncapsulation.None }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterComponent, decorators: [{
             type: Component,
             args: [{ selector: 'ngx-gridster', template: `<div class="gridster-container">
       <ng-content></ng-content>
@@ -1860,6 +1860,31 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImpo
             }] } });
 
 class GridListItem {
+    static { this.BREAKPOINTS = ['sm', 'md', 'lg', 'xl']; }
+    static { this.X_PROPERTY_MAP = {
+        sm: 'xSm',
+        md: 'xMd',
+        lg: 'xLg',
+        xl: 'xXl'
+    }; }
+    static { this.Y_PROPERTY_MAP = {
+        sm: 'ySm',
+        md: 'yMd',
+        lg: 'yLg',
+        xl: 'yXl'
+    }; }
+    static { this.W_PROPERTY_MAP = {
+        sm: 'wSm',
+        md: 'wMd',
+        lg: 'wLg',
+        xl: 'wXl'
+    }; }
+    static { this.H_PROPERTY_MAP = {
+        sm: 'hSm',
+        md: 'hMd',
+        lg: 'hLg',
+        xl: 'hXl'
+    }; }
     get $element() {
         return this.getItem().$element;
     }
@@ -2131,31 +2156,6 @@ class GridListItem {
         return this.itemComponent || this.itemPrototype || this.itemObject;
     }
 }
-GridListItem.BREAKPOINTS = ['sm', 'md', 'lg', 'xl'];
-GridListItem.X_PROPERTY_MAP = {
-    sm: 'xSm',
-    md: 'xMd',
-    lg: 'xLg',
-    xl: 'xXl'
-};
-GridListItem.Y_PROPERTY_MAP = {
-    sm: 'ySm',
-    md: 'yMd',
-    lg: 'yLg',
-    xl: 'yXl'
-};
-GridListItem.W_PROPERTY_MAP = {
-    sm: 'wSm',
-    md: 'wMd',
-    lg: 'wLg',
-    xl: 'wXl'
-};
-GridListItem.H_PROPERTY_MAP = {
-    sm: 'hSm',
-    md: 'hMd',
-    lg: 'hLg',
-    xl: 'hXl'
-};
 
 class DraggableEvent {
     constructor(event) {
@@ -2212,6 +2212,7 @@ class DraggableEvent {
 }
 
 class Draggable {
+    static { this.SCROLL_SPEED = 20; }
     constructor(element, config = {}) {
         this.mousemove = merge(fromEvent(document, 'mousemove'), fromEvent(document, 'touchmove', { passive: false })).pipe(share());
         this.mouseup = merge(fromEvent(document, 'mouseup'), fromEvent(document, 'touchend'), fromEvent(document, 'touchcancel')).pipe(share());
@@ -2451,9 +2452,20 @@ class Draggable {
         return false;
     }
 }
-Draggable.SCROLL_SPEED = 20;
 
 class GridsterItemComponent {
+    set positionX(value) {
+        this._positionX = value;
+    }
+    get positionX() {
+        return this._positionX;
+    }
+    set positionY(value) {
+        this._positionY = value;
+    }
+    get positionY() {
+        return this._positionY;
+    }
     constructor(zone, gridsterPrototypeService, elementRef, gridster) {
         this.zone = zone;
         this.gridsterPrototypeService = gridsterPrototypeService;
@@ -2504,18 +2516,6 @@ class GridsterItemComponent {
         if (this.gridster.isInitialized()) {
             this.preventAnimation();
         }
-    }
-    set positionX(value) {
-        this._positionX = value;
-    }
-    get positionX() {
-        return this._positionX;
-    }
-    set positionY(value) {
-        this._positionY = value;
-    }
-    get positionY() {
-        return this._positionY;
     }
     ngOnInit() {
         this.options = Object.assign(this.defaultOptions, this.options);
@@ -2925,9 +2925,8 @@ class GridsterItemComponent {
             this.$element.style.width = (config.startData.maxW * this.gridster.cellWidth) + 'px';
         }
     }
-}
-GridsterItemComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterItemComponent, deps: [{ token: i0.NgZone }, { token: GridsterPrototypeService }, { token: ElementRef }, { token: GridsterService }], target: i0.ɵɵFactoryTarget.Component });
-GridsterItemComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "15.2.10", type: GridsterItemComponent, selector: "ngx-gridster-item", inputs: { x: "x", y: "y", xSm: "xSm", ySm: "ySm", xMd: "xMd", yMd: "yMd", xLg: "xLg", yLg: "yLg", xXl: "xXl", yXl: "yXl", w: "w", h: "h", wSm: "wSm", hSm: "hSm", wMd: "wMd", hMd: "hMd", wLg: "wLg", hLg: "hLg", wXl: "wXl", hXl: "hXl", dragAndDrop: "dragAndDrop", resizable: "resizable", options: "options" }, outputs: { xChange: "xChange", yChange: "yChange", xSmChange: "xSmChange", ySmChange: "ySmChange", xMdChange: "xMdChange", yMdChange: "yMdChange", xLgChange: "xLgChange", yLgChange: "yLgChange", xXlChange: "xXlChange", yXlChange: "yXlChange", wChange: "wChange", hChange: "hChange", wSmChange: "wSmChange", hSmChange: "hSmChange", wMdChange: "wMdChange", hMdChange: "hMdChange", wLgChange: "wLgChange", hLgChange: "hLgChange", wXlChange: "wXlChange", hXlChange: "hXlChange", change: "change", start: "start", end: "end" }, host: { properties: { "class.is-dragging": "this.isDragging", "class.is-resizing": "this.isResizing" } }, usesOnChanges: true, ngImport: i0, template: `<div class="gridster-item-inner">
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterItemComponent, deps: [{ token: i0.NgZone }, { token: GridsterPrototypeService }, { token: ElementRef }, { token: GridsterService }], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.2.12", type: GridsterItemComponent, selector: "ngx-gridster-item", inputs: { x: "x", y: "y", xSm: "xSm", ySm: "ySm", xMd: "xMd", yMd: "yMd", xLg: "xLg", yLg: "yLg", xXl: "xXl", yXl: "yXl", w: "w", h: "h", wSm: "wSm", hSm: "hSm", wMd: "wMd", hMd: "hMd", wLg: "wLg", hLg: "hLg", wXl: "wXl", hXl: "hXl", dragAndDrop: "dragAndDrop", resizable: "resizable", options: "options" }, outputs: { xChange: "xChange", yChange: "yChange", xSmChange: "xSmChange", ySmChange: "ySmChange", xMdChange: "xMdChange", yMdChange: "yMdChange", xLgChange: "xLgChange", yLgChange: "yLgChange", xXlChange: "xXlChange", yXlChange: "yXlChange", wChange: "wChange", hChange: "hChange", wSmChange: "wSmChange", hSmChange: "hSmChange", wMdChange: "wMdChange", hMdChange: "hMdChange", wLgChange: "wLgChange", hLgChange: "hLgChange", wXlChange: "wXlChange", hXlChange: "hXlChange", change: "change", start: "start", end: "end" }, host: { properties: { "class.is-dragging": "this.isDragging", "class.is-resizing": "this.isResizing" } }, usesOnChanges: true, ngImport: i0, template: `<div class="gridster-item-inner">
       <ng-content></ng-content>
       <div class="gridster-item-resizable-handler handle-s"></div>
       <div class="gridster-item-resizable-handler handle-e"></div>
@@ -2937,8 +2936,9 @@ GridsterItemComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", 
       <div class="gridster-item-resizable-handler handle-ne"></div>
       <div class="gridster-item-resizable-handler handle-sw"></div>
       <div class="gridster-item-resizable-handler handle-nw"></div>
-    </div>`, isInline: true, styles: ["ngx-gridster-item{display:block;position:absolute;top:0;left:0;z-index:1;transition:none}.gridster--ready ngx-gridster-item{transition:all .2s ease;transition-property:left,top}.gridster--ready.css-transform ngx-gridster-item{transition-property:transform}.gridster--ready ngx-gridster-item.is-dragging,.gridster--ready ngx-gridster-item.is-resizing{transition:none;z-index:9999}ngx-gridster-item.no-transition{transition:none}ngx-gridster-item .gridster-item-resizable-handler{position:absolute;z-index:2;display:none}ngx-gridster-item .gridster-item-resizable-handler.handle-n{cursor:n-resize;height:10px;right:0;top:0;left:0}ngx-gridster-item .gridster-item-resizable-handler.handle-e{cursor:e-resize;width:10px;bottom:0;right:0;top:0}ngx-gridster-item .gridster-item-resizable-handler.handle-s{cursor:s-resize;height:10px;right:0;bottom:0;left:0}ngx-gridster-item .gridster-item-resizable-handler.handle-w{cursor:w-resize;width:10px;left:0;top:0;bottom:0}ngx-gridster-item .gridster-item-resizable-handler.handle-ne{cursor:ne-resize;width:10px;height:10px;right:0;top:0}ngx-gridster-item .gridster-item-resizable-handler.handle-nw{cursor:nw-resize;width:10px;height:10px;left:0;top:0}ngx-gridster-item .gridster-item-resizable-handler.handle-se{cursor:se-resize;width:0;height:0;right:0;bottom:0;border-style:solid;border-width:0 0 10px 10px;border-color:transparent}ngx-gridster-item .gridster-item-resizable-handler.handle-sw{cursor:sw-resize;width:10px;height:10px;left:0;bottom:0}ngx-gridster-item:hover .gridster-item-resizable-handler.handle-se{border-color:transparent transparent #ccc}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush, encapsulation: i0.ViewEncapsulation.None });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterItemComponent, decorators: [{
+    </div>`, isInline: true, styles: ["ngx-gridster-item{display:block;position:absolute;top:0;left:0;z-index:1;transition:none}.gridster--ready ngx-gridster-item{transition:all .2s ease;transition-property:left,top}.gridster--ready.css-transform ngx-gridster-item{transition-property:transform}.gridster--ready ngx-gridster-item.is-dragging,.gridster--ready ngx-gridster-item.is-resizing{transition:none;z-index:9999}ngx-gridster-item.no-transition{transition:none}ngx-gridster-item .gridster-item-resizable-handler{position:absolute;z-index:2;display:none}ngx-gridster-item .gridster-item-resizable-handler.handle-n{cursor:n-resize;height:10px;right:0;top:0;left:0}ngx-gridster-item .gridster-item-resizable-handler.handle-e{cursor:e-resize;width:10px;bottom:0;right:0;top:0}ngx-gridster-item .gridster-item-resizable-handler.handle-s{cursor:s-resize;height:10px;right:0;bottom:0;left:0}ngx-gridster-item .gridster-item-resizable-handler.handle-w{cursor:w-resize;width:10px;left:0;top:0;bottom:0}ngx-gridster-item .gridster-item-resizable-handler.handle-ne{cursor:ne-resize;width:10px;height:10px;right:0;top:0}ngx-gridster-item .gridster-item-resizable-handler.handle-nw{cursor:nw-resize;width:10px;height:10px;left:0;top:0}ngx-gridster-item .gridster-item-resizable-handler.handle-se{cursor:se-resize;width:0;height:0;right:0;bottom:0;border-style:solid;border-width:0 0 10px 10px;border-color:transparent}ngx-gridster-item .gridster-item-resizable-handler.handle-sw{cursor:sw-resize;width:10px;height:10px;left:0;bottom:0}ngx-gridster-item:hover .gridster-item-resizable-handler.handle-se{border-color:transparent transparent #ccc}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush, encapsulation: i0.ViewEncapsulation.None }); }
+}
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterItemComponent, decorators: [{
             type: Component,
             args: [{ selector: 'ngx-gridster-item', template: `<div class="gridster-item-inner">
       <ng-content></ng-content>
@@ -3058,6 +3058,13 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImpo
             }] } });
 
 class GridsterItemPrototypeDirective {
+    // must be set to true because of item dragAndDrop configuration
+    get dragAndDrop() {
+        return true;
+    }
+    get gridster() {
+        return this.dragContextGridster;
+    }
     constructor(zone, elementRef, gridsterPrototype) {
         this.zone = zone;
         this.elementRef = elementRef;
@@ -3074,13 +3081,6 @@ class GridsterItemPrototypeDirective {
         this.isDragging = false;
         this.subscribtions = [];
         this.item = (new GridListItem()).setFromGridsterItemPrototype(this);
-    }
-    // must be set to true because of item dragAndDrop configuration
-    get dragAndDrop() {
-        return true;
-    }
-    get gridster() {
-        return this.dragContextGridster;
     }
     ngOnInit() {
         this.wSm = this.wSm || this.w;
@@ -3247,10 +3247,10 @@ class GridsterItemPrototypeDirective {
         });
         return el;
     }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterItemPrototypeDirective, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Directive }); }
+    static { this.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "16.2.12", type: GridsterItemPrototypeDirective, selector: "[ngxGridsterItemPrototype]", inputs: { data: "data", config: "config", w: "w", wSm: "wSm", wMd: "wMd", wLg: "wLg", wXl: "wXl", h: "h", hSm: "hSm", hMd: "hMd", hLg: "hLg", hXl: "hXl" }, outputs: { drop: "drop", start: "start", cancel: "cancel", enter: "enter", out: "out" }, ngImport: i0 }); }
 }
-GridsterItemPrototypeDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterItemPrototypeDirective, deps: [{ token: i0.NgZone }, { token: i0.ElementRef }, { token: GridsterPrototypeService }], target: i0.ɵɵFactoryTarget.Directive });
-GridsterItemPrototypeDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "15.2.10", type: GridsterItemPrototypeDirective, selector: "[ngxGridsterItemPrototype]", inputs: { data: "data", config: "config", w: "w", wSm: "wSm", wMd: "wMd", wLg: "wLg", wXl: "wXl", h: "h", hSm: "hSm", hMd: "hMd", hLg: "hLg", hXl: "hXl" }, outputs: { drop: "drop", start: "start", cancel: "cancel", enter: "enter", out: "out" }, ngImport: i0 });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterItemPrototypeDirective, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterItemPrototypeDirective, decorators: [{
             type: Directive,
             args: [{
                     selector: '[ngxGridsterItemPrototype]'
@@ -3298,15 +3298,15 @@ class GridsterModule {
             providers: [GridsterPrototypeService]
         };
     }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "16.2.12", ngImport: i0, type: GridsterModule, declarations: [GridsterComponent,
+            GridsterItemComponent,
+            GridsterItemPrototypeDirective], imports: [CommonModule], exports: [GridsterComponent,
+            GridsterItemComponent,
+            GridsterItemPrototypeDirective] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterModule, imports: [CommonModule] }); }
 }
-GridsterModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-GridsterModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "15.2.10", ngImport: i0, type: GridsterModule, declarations: [GridsterComponent,
-        GridsterItemComponent,
-        GridsterItemPrototypeDirective], imports: [CommonModule], exports: [GridsterComponent,
-        GridsterItemComponent,
-        GridsterItemPrototypeDirective] });
-GridsterModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterModule, imports: [CommonModule] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.2.10", ngImport: i0, type: GridsterModule, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: GridsterModule, decorators: [{
             type: NgModule,
             args: [{
                     imports: [

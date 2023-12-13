@@ -1,10 +1,10 @@
 {
-  "name": "@khajegan/angular2gridster",
-  "description": "angular2gridster compatible with Angular 15.2.10 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
-  "version": "15.0.1",
+  "name": "angular2gridster",
+  "description": "angular2gridster compatible with Angular 16.2.12 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
+  "version": "16.0.0",
   "peerDependencies": {
-    "@angular/common": "^15.2.10",
-    "@angular/core": "^15.2.10"
+    "@angular/common": "^16.2.12",
+    "@angular/core": "^16.2.12"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -14,17 +14,15 @@
     "url": "git+https://github.com/khajegan/angular2gridster.git"
   },
   "keywords": [
+    "Angular 16",
     "Angular 15",
+    "Angular 14",
     "Angular",
     "angular2gridster"
   ],
   "author": "Amir Hossein Khajegan",
   "license": "ISC",
-  "module": "fesm2015/angular2gridster.mjs",
-  "es2020": "fesm2020/angular2gridster.mjs",
-  "esm2020": "esm2020/angular2gridster.mjs",
-  "fesm2020": "fesm2020/angular2gridster.mjs",
-  "fesm2015": "fesm2015/angular2gridster.mjs",
+  "module": "fesm2022/angular2gridster.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -32,23 +30,10 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/angular2gridster.mjs",
-      "es2020": "./fesm2020/angular2gridster.mjs",
-      "es2015": "./fesm2015/angular2gridster.mjs",
-      "node": "./fesm2015/angular2gridster.mjs",
-      "default": "./fesm2020/angular2gridster.mjs"
+      "esm2022": "./esm2022/angular2gridster.mjs",
+      "esm": "./esm2022/angular2gridster.mjs",
+      "default": "./fesm2022/angular2gridster.mjs"
     }
   },
-  "sideEffects": false,
-  "bugs": {
-    "url": "https://github.com/khajegan/angular2gridster/issues"
-  },
-  "homepage": "https://github.com/khajegan/angular2gridster#readme",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "sideEffects": false
 }
