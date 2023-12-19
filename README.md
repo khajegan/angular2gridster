@@ -1,4 +1,4 @@
-#1 angular2gridster (Angular 16.2.12)
+#1 angular2gridster (Angular 17.0.7)
 
 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)
 
@@ -14,6 +14,7 @@ More comprehensive documentation is available in [Wiki](https://github.com/khaje
 Development progress can be tracked in [Milestones](https://github.com/khajegan/angular2gridster/milestones) and in [Project board](https://github.com/khajegan/angular2gridster/projects/1).
 
 ## Versions:
+-   Version **17.x** works with **Angular 17.x**.
 -   Version **16.x** works with **Angular 16.x**.
 -   Version **15.x** works with **Angular 15.x**.
 -   Version **14.x** works with **Angular 14.x**.
