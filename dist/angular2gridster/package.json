@@ -1,5 +1,5 @@
 {
-  "name": "angular2gridster",
+  "name": "@khajegan/angular2gridster",
   "description": "angular2gridster compatible with Angular 16.2.12 and rxjs 7.5.0 [![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster)",
   "version": "16.0.0",
   "peerDependencies": {
@@ -35,5 +35,16 @@
       "default": "./fesm2022/angular2gridster.mjs"
     }
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/khajegan/angular2gridster/issues"
+  },
+  "homepage": "https://github.com/khajegan/angular2gridster#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
