@@ -16,7 +16,7 @@
     "release-dry": "standard-version  --dry-run -r patch",
     "publish-lib": "npm run build && node ./updatePackageJson.js && cp -rf ./README.md ./dist/angular2gridster && cd ./dist/angular2gridster && npm publish",
     "update-demo": "npm run build && ng build --configuration production --base-href /angular2gridster/ && gh-pages -d dist/gridster-demo",
-    "myScope": "sudo npm init --scope=@khajegan",
+      "myScope": "cd projects/angular2gridster && sudo npm init --scope=@khajegan",
     "myBuild": "cd projects/angular2gridster &&  sudo ng b --configuration production",
     "myPublish": "cd dist/angular2gridster && npm publish --access public"
   },
